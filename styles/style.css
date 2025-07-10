@@ -6,3 +6,30 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* Shared Styles */
+.btn-primary{
+  background-color: #4E47FF;
+  color: white;
+  width: 132px;
+  padding: 12px 36px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+/* header section styles */
+.header{
+  background-image: url(../Assets/Hero-bg.png);
+}
+.nav{
+  width: 1140px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding: 0 150px;
+}
+.nav h3{
+  color: #4E47FF;
+  font-weight: bolder;
+  font-size: large;
+}
